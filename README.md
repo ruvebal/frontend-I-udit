@@ -1,8 +1,8 @@
 # WEB ATELIER (UDIT) · Professor's Repository
 
-_Critical Coding for a Better Living._
+[https://github.com/ruvebal/web-atelier-udit](https://github.com/ruvebal/web-atelier-udit)
 
-Use this to start a course (Template Mode). Do **not** fork `web-foundations`.
+_Critical Coding for a Better Living._
 
 **Author:** Rubén Vega Balbás, PhD (UDIT, University of Design, Innovation and Technology) — ORCID: <https://orcid.org/0000-0001-6862-9081> · <https://www.udit.es>
 
