@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Diseño Web 2025 · Otoño
+title: DESARROLLO FRONTEND I — 2025 · Otoño
 lang: es
 term: 2025-fall
 ---
@@ -23,18 +23,22 @@ Este es el sitio del curso de **{{ site.data.courses[page.term].es.course_name }
 
 Las lecciones canónicas se encuentran en [Web Foundations]({{ site.data.courses[page.term].es.canonical_lessons_base }}).
 
-### Semana 1: Configuración
+{% comment %} Auto-generated from \_data/lessons/{{ page.term }}/en.yml {% endcomment %}
+{% assign lessons = site.data.lessons[page.term].en %}
+{% assign canon = site.data.courses[page.term].en.canonical_lessons_base %}
+{% if lessons %}
+{% for l in lessons %}
 
-- [Entorno de Desarrollo]({{ site.data.courses[page.term].es.canonical_lessons_base }}/lessons/es/development-environment.html)
+- [{{ l.title }}]({{ canon }}{{ l.path }})
+  {% endfor %}
+  {% else %}
+- Lessons coming soon.
+  {% endif %}
 
-### Semana 3: Diseño Visual
-
-- [Tipografía y Color]({{ site.data.courses[page.term].es.canonical_lessons_base }}/lessons/es/typography-color.html)
-
-## Proyectos Estudiantiles
+## Student Projects
 
 {% comment %} Student showroom will be generated here {% endcomment %}
-{% include students-list-by-files.html lang='es' term='2025-fall' %}
+{% include students-list-by-files.html lang='en' term='2025-fall' %}
 
 ## Entregas Importantes
 
@@ -45,6 +49,8 @@ Las lecciones canónicas se encuentran en [Web Foundations]({{ site.data.courses
 
 ## Recursos
 
-- [Metodología ATELIER]({{ site.data.courses[page.term].es.canonical_lessons_base }}/methodology/es/)
-- [Plantillas y Ejemplos]({{ site.data.courses[page.term].es.canonical_lessons_base }}/templates/)
-- [GitHub Classroom](https://classroom.github.com/) (enlace específico por confirmar)
+
+- [Metodología ATELIER](https://ruvebal.github.io/web-atelier-udit/methodology/en/)
+- [Plantillas y Ejemplos](https://github.com/ruvebal/web-atelier-udit)
+- [GitHub Classroom](https://classroom.github.com/) (specific link TBD)
+
