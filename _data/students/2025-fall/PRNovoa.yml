@@ -1,0 +1,29 @@
+# Sample student entry - copy this template for each student
+# Filename should match student's GitHub username: {username}.yml
+
+handle: student
+name: Pablo Novoa Rodríguez
+email: pablo.novoa@alumnos.udit.es
+github_url: https://github.com/PRNovoa
+project_url: https://prnovoa.github.io/Fron_End1_Project
+repository_url: https://github.com/PRNovoa/Fron_End1_Project
+
+# Project metadata (filled by student in Week 4)
+title:
+ es: Texas Red
+ en: Texas Red
+
+abstract:
+ es: Página web de la banda de música Texas Red
+ en: Web page for the music band Texas Red
+
+# Optional metadata
+tags:
+ - html
+ - css
+ - accessibility
+
+# Submission tracking
+submitted_brief: false
+submitted_metadata: false
+peer_review_completed: false
