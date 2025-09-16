@@ -1,0 +1,29 @@
+# Sample student entry - copy this template for each student
+# Filename should match student's GitHub username: {username}.yml
+
+handle: student
+name: Iván Herrera González 
+email: ivan.herrera@lumnos.udit.es
+github_url: https://github.com/Gonsiii11/
+project_url: https://gonsiii11.github.io/trabajo-frontend/
+repository_url: https://github.com/Gonsiii11/trabajo-frontend
+
+# Project metadata (filled by student in Week 4)
+title:
+ es: Mi Proyecto Web
+ en: My Web Project
+
+abstract:
+ es: Una breve descripción del proyecto en español
+ en: A brief description of the project in English
+
+# Optional metadata
+tags:
+ - html
+ - css
+ - accessibility
+
+# Submission tracking
+submitted_brief: false
+submitted_metadata: false
+peer_review_completed: false
