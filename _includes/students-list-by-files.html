@@ -9,7 +9,7 @@ assign students = site.data.students[term] %} {% if students %}
 
 	<li class="card">
 		<h3>
-			<a href="{{ student.project_url }}" target="_blank" rel="noopener">{{ title }}</a>
+			<a href="{{ student.project_url }}" target="_blank" rel="noopener noreferrer">{{ title }}</a>
 			<small>@{{ student.handle }}</small>
 		</h3>
 
@@ -18,7 +18,7 @@ assign students = site.data.students[term] %} {% if students %}
 		{% endif %}
 
 		<div class="meta">
-			<a href="{{ student.repository_url }}" class="repo-link" target="_blank" rel="noopener">📁 Repository</a>
+			<a href="{{ student.repository_url }}" class="repo-link" target="_blank" rel="noopener noreferrer">📁 Repository</a>
 			{% if student.tags %}
 			<div class="tags">
 				{% for tag in student.tags %}

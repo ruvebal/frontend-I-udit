@@ -1,8 +1,11 @@
 <header class="site-header container">
 	<nav class="nav">
-		<a href="{{ site.baseurl }}/">Home</a>
-		<a href="{{ site.baseurl }}/lessons/es/">Lecciones</a>
-		<a href="{{ site.baseurl }}/lessons/en/">Lessons</a>
+		<a href="{{ '/' | relative_url }}">Home</a>
+		{% assign term_key = page.term | default: '2025-fall' %} {% assign canon_es =
+		site.data.courses[term_key].es.canonical_lessons_base %} {% assign canon_en =
+		site.data.courses[term_key].en.canonical_lessons_base %}
+		<a href="{{ canon_es }}/lessons/es/" target="_blank" rel="noopener noreferrer">Lecciones</a>
+		<a href="{{ canon_en }}/lessons/en/" target="_blank" rel="noopener noreferrer">Lessons</a>
 		<a href="mailto:ruben.vega@udit.es">Email</a>
 	</nav>
 </header>
