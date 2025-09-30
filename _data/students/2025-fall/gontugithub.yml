@@ -1,7 +1,7 @@
 # Sample student entry - copy this template for each student
 # Filename should match student's GitHub username: {username}.yml
 
-handle: sample-student
+handle: @gontugithub
 name: Gonzalo Sánchez Álvarez
 email: gonzalo.sanchez@alum.udit.es
 github_url: https://github.com/gontugithub
@@ -10,11 +10,11 @@ repository_url: https://github.com/gontugithub/frontend-I-udit
 
 # Project metadata (filled by student in Week 4)
 title:
- es: Mi Proyecto Web
+ es: Portfolio Gonzalo Sánchez
  en: My Web Project
 
 abstract:
- es: Una breve descripción del proyecto en español
+ es: Un resumen de mis proyectos y objetivos en el mundo tech
  en: A brief description of the project in English
 
 # Optional metadata
