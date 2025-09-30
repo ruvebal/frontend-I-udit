@@ -5,17 +5,17 @@ handle: gpfc-git
 name: Gonzalo Pérez Fernández-Corugedo
 email: gonzalo.perez.fernandezcorugedo@alumnos.udit.es
 github_url: https://github.com/gpfc-git
-project_url: https://gpfc-git.github.io/frontend-I-udit/
+project_url: https://gpfc-git.github.io/web-project-2025/
 repository_url: https://github.com/gpfc-git/web-project-2025
 
 # Project metadata (filled by student in Week 4)
 title:
- es: Mi Proyecto Web
- en: My Web Project
+ es: Mi Portfolio
+ en: My Portfolio
 
 abstract:
- es: Una breve descripción del proyecto en español
- en: A brief description of the project in English
+ es: Portfolio personal de trabajos
+ en: Personal work portfolio
 
 # Optional metadata
 tags:
