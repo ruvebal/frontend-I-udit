@@ -1,7 +1,7 @@
 # Sample student entry - copy this template for each student
 # Filename should match student's GitHub username: {username}.yml
 
-handle: student
+handle: Gonsiii11
 name: Iván Herrera González 
 email: ivan.herrera@lumnos.udit.es
 github_url: https://github.com/Gonsiii11/
@@ -10,7 +10,7 @@ repository_url: https://github.com/Gonsiii11/trabajo-frontend
 
 # Project metadata (filled by student in Week 4)
 title:
- es: Mi Proyecto Web
+ es: MI PORTFOLIO
  en: My Web Project
 
 abstract:
